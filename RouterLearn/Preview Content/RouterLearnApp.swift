@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct RouterLearnApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            Root()
+                .environmentObject(Router())
         }
+        
     }
 }

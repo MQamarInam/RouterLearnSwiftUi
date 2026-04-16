@@ -7,18 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Register: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            
             Text("Hello, world!")
+                .font(.custom("RubikGlitch-Regular", size: 30))
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    Register()
 }
